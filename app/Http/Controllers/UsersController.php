@@ -23,6 +23,10 @@ class UsersController extends Controller
         //pagination and order by
         //$user      =Users::orderBy('id', 'DESC')->paginate(5);
         return view('users/index', compact('user'));
+
+        //json
+         
+         //return response()->json(['data'=>$user]);
     }
 
   
